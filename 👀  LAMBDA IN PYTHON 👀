@@ -1,0 +1,32 @@
+
+# LAMDA CAN TAKE ANY NUMBER OF ARGUMENTS, BUT CAN ONLY HAVE ONE EXPRESSION👌👌👌👌
+
+#SYNTAX::::::     lambda arguments : expression
+
+# The expression is executed and the result is returned...
+
+#LAMBDA FUNCTION:::
+
+x = lambda a: a + 9
+print(x(7))    #output : 16
+
+# A lambda function can take any number of argument.
+
+x = lambda a, b, c : a*b/c
+print(x(4,5,10))         #output : 2.0
+
+# IN NORMAL FUNCTION WE CAN WRITE MULTIPIL EXPRESSION BUT IN LAMBDA , WE CAN WRITE ONLY ONE EXPRESSION WITH MULTIPLE ARGUMENTS
+
+# SORT USING LAMBDA :::
+
+people = ["SAYAN", "babli", "arka", "Suman"]
+
+#normally use ( sort ) functiuon like:
+
+people.sort(
+    key = lambda x: x[-1]
+)
+
+print(people)        #OUTPUT ::  ['SAYAN', 'arka', 'babli', 'Suman']
+
+
