@@ -1,0 +1,23 @@
+
+# use of [pass] in python
+
+'''def myfunc():
+                 #OUTPUT:::
+
+                # indentationError: expected an indented block after function definition on line 3
+   myfunc()     '''
+
+         # in this code i dont gv a parameter to my function,
+         #that's why its giving eror
+         # we know function defination can not be empty.....BUT....->
+
+ #  NOW WE WRITE SAME CODE WITH(PASS)::;
+ # 
+
+def myfunc():
+    pass         #bcs of this pass function ::
+
+                         #  now the output is not showing error
+
+myfunc()
+
