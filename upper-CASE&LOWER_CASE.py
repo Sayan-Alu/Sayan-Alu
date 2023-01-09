@@ -1,0 +1,17 @@
+#  CACCULATE TH UPPER CASE & LOWER CASE FROM A STRING
+# ======================================================
+
+
+def magic(a):
+    b = 0
+    c = 0
+    for i in a:
+        if i.isupper():
+            b = b+1
+        elif i.islower():
+            c = c+1
+    print("upper case is : ", b)
+    print("lower case is :", c) 
+
+s = input("type a string : ")
+magic(s)
